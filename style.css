@@ -35,6 +35,7 @@ body {
 
     .deleteProduct>img {
         width: 25px;
+        height: auto;
     }
 
     .buttonIzq {
