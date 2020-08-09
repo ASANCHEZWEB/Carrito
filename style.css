@@ -22,8 +22,8 @@ body {
     }
 
     .centerImageProd>img {
-        width: 36vw;
-        height: auto;
+        width: auto;
+        height: 36vw;
     }
 
     .deleteProduct {
@@ -35,7 +35,7 @@ body {
 
     .deleteProduct>img {
         width: 25px;
-        height: auto;
+        height: 25px;
     }
 
     .buttonIzq {
