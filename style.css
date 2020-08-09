@@ -23,6 +23,7 @@ body {
 
     .centerImageProd>img {
         width: 36vw;
+        height: auto;
     }
 
     .deleteProduct {
