@@ -154,6 +154,12 @@ body {
         justify-content: center;
         margin: 40px 0px 40px 0px;
     }
+    .finalizarCompra>button{
+        background-color: #f1c545;
+        border: none;
+        font-family: Montserrat;
+        padding: 13px;
+    }
 }
 
 
