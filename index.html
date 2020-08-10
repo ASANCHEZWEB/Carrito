@@ -19,7 +19,7 @@
                 <div class="individualProdCont">
                     <div class="deleteProduct"><img src="icono-eliminar.png" alt="icono contenedor"></div>
                     <div class="centerImageProd"><img src="manzana.jpg" alt="manzana"></div>
-                    <div class="divNames"><span>PRODUCTO:</span><span>Platano de canarias</span></div>
+                    <div class="divNames"><span>PRODUCTO:</span><span>Manzana</span></div>
                     <div class="divNames"><span>PRECIO KG:</span><span>1.25€</span></div>
                     <div class="divNames">
                         <span>CANTIDAD:</span>
@@ -30,21 +30,32 @@
                 </div>
                 <div class="individualProdCont">
                     <div class="deleteProduct"><img src="icono-eliminar.png" alt="icono contenedor"></div>
-                    <div class="centerImageProd"><img src="manzana.jpg" alt="manzana"></div>
-                    <div class="divNames"><span>PRODUCTO:</span><span>Platano de canarias</span></div>
-                    <div class="divNames"><span>PRECIO KG:</span><span>1.25€</span></div>
+                    <div class="centerImageProd"><img src="naranja-mesa.jpg" alt="manzana"></div>
+                    <div class="divNames"><span>PRODUCTO:</span><span>Naranja</span></div>
+                    <div class="divNames"><span>PRECIO KG:</span><span>5.59€</span></div>
                     <div class="divNames">
                         <span>CANTIDAD:</span>
                         <div><button class="buttonIzq">-</button><span class="spanCant">0.5</span><button class="buttonDer">+</button></div>
                     </div>
-                    <div class="divNames subTotal"><span>SUBTOTAL:</span><span>5.76€</span></div>
+                    <div class="divNames subTotal"><span>SUBTOTAL:</span><span>832€</span></div>
                     <hr>
                 </div>
             </div>
-            <div class="containerTotal">
+            <div class="cuponContainer">
+                <form class="formDesc" onSubmit={this.handleSubmit}>
+                    <label> <img src="icono-descuento.png" alt="icono descuento">Código descuento o influencer<img src="icono-descuento.png" alt="icono descuento"></label>
+                    <input type="text" placeholder="        Si tienes un código aplícalo aquí!😉"/>
+                    <input type="submit" value="APLICAR" />
+                </form>
             </div>
+            <div class="containerTotal">
+                <div><span>SUBTOTAL:</span><p>30.4€</p></div>
+                <div><span>IMPUESTOS (IVA):</span><p>21%</p></div>
+                <div><p>50.34</p></div>
+            </div>
+            <div class="finalizarCompra"><button>FINALIZAR COMPRA</button></div>
         </div>
     </section>
 </body>
-
 </html>
+

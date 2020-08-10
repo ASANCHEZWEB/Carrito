@@ -70,6 +70,90 @@ body {
         border-radius: 10px;
         border: none;
     }
+
+    .formDesc {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .formDesc>input:nth-child(2) {
+        width: 100%;
+        max-width: 289px;
+        border: solid;
+        border-width: 1px;
+        padding: 5px 0px 5px 0px;
+        border-color: yellowgreen;
+        margin: 10px 0px 10px 0px;
+        outline: none;
+    }
+
+    .formDesc>input:nth-child(3) {
+        width: 100%;
+        max-width: 93px;
+        border: none;
+        padding: 5px 0px 5px 0px;
+        margin: 10px 0px 10px 0px;
+        font-family: Montserrat;
+        color: white;
+        background-color: #f1c545;
+    }
+
+    .formDesc>label {
+        font-family: Montserrat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 16px;
+    }
+
+    .cuponContainer {
+        margin: 34px 0px 34px 0px;
+    }
+
+    .containerTotal {
+        background-image: url(recibo.png);
+        width: 100%;
+        max-width: 320px;
+        background-repeat: no-repeat;
+        height: 457px;
+        background-size: cover;
+        margin: 0 auto;
+        font-family: Montserrat;
+    }
+
+    .containerTotal>:nth-child(1) {
+        padding: 155px 23px 0px 23px;
+        display: flex;
+        height: 21px;
+        align-items: center;
+        font-family: Montserrat;
+        justify-content: space-between;
+    }
+
+    .containerTotal>div:nth-child(2) {
+        padding: 5px 23px 0px 23px;
+        display: flex;
+        align-items: center;
+        font-family: Montserrat;
+        height: 21px;
+        justify-content: space-between;
+    }
+
+    .containerTotal>div:nth-child(3) {
+        display: flex;
+        justify-content: flex-end;
+        padding: 68px 50px 0px 0px;
+        font-size: 28px;
+        font-family: montserrat;
+    }
+
+    .finalizarCompra {
+        display: flex;
+        justify-content: center;
+        margin: 40px 0px 40px 0px;
+    }
 }
 
 
