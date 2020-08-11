@@ -90,14 +90,14 @@ body {
     }
 
     .formDesc>input:nth-child(3) {
-        width: 100%;
-        max-width: 93px;
-        border: none;
-        padding: 5px 0px 5px 0px;
-        margin: 10px 0px 10px 0px;
-        font-family: Montserrat;
-        color: white;
-        background-color: #f1c545;
+        width: 100% !important;
+        max-width: 93px !important;
+        border: none !important;
+        padding: 5px 0px 5px 0px !important;
+        margin: 10px 0px 10px 0px !important;
+        font-family: Montserrat !important;
+        color: white !important;
+        background-color: #f1c545 !important;
     }
 
     .formDesc>label {
