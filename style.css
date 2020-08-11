@@ -115,10 +115,11 @@ body {
     .containerTotal {
         width: 100%;
         max-width: 320px;
-        height: 457px;
-        background-color: #2ecc71;
+        height: 430px;
+        background-color: #f6f6f6;
         margin: 0 auto;
         font-family: Montserrat;
+        color: #2ecc71;
     }
 
     .containerTotal>div {
@@ -132,7 +133,7 @@ body {
         width: 70%;
         border: none;
         height: 1px;
-        background-color: white;
+        background-color: #dedede;
     }
 
     .finalizarCompra {
@@ -146,6 +147,9 @@ body {
         border: none;
         font-family: Montserrat;
         padding: 13px;
+    }
+    .totalCarrito{
+        margin-left: 79px;
     }
 }
 
