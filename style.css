@@ -83,7 +83,7 @@ body {
         max-width: 289px;
         border: solid;
         border-width: 1px;
-        padding: 5px 0px 5px 0px;
+        padding: 10px 0px 10px 0px;
         border-color: yellowgreen;
         margin: 10px 0px 10px 0px;
         outline: none;
@@ -113,40 +113,26 @@ body {
     }
 
     .containerTotal {
-        background-image: url(recibo.png);
         width: 100%;
         max-width: 320px;
-        background-repeat: no-repeat;
         height: 457px;
-        background-size: cover;
+        background-color: #2ecc71;
         margin: 0 auto;
         font-family: Montserrat;
     }
 
-    .containerTotal>:nth-child(1) {
-        padding: 155px 23px 0px 23px;
+    .containerTotal>div {
         display: flex;
-        height: 21px;
-        align-items: center;
-        font-family: Montserrat;
         justify-content: space-between;
+        padding-top: 45px;
+        margin: 0px 20px 0px 20px;
     }
 
-    .containerTotal>div:nth-child(2) {
-        padding: 5px 23px 0px 23px;
-        display: flex;
-        align-items: center;
-        font-family: Montserrat;
-        height: 21px;
-        justify-content: space-between;
-    }
-
-    .containerTotal>div:nth-child(3) {
-        display: flex;
-        justify-content: flex-end;
-        padding: 68px 50px 0px 0px;
-        font-size: 28px;
-        font-family: montserrat;
+    .containerTotal>hr {
+        width: 70%;
+        border: none;
+        height: 1px;
+        background-color: white;
     }
 
     .finalizarCompra {
@@ -154,7 +140,8 @@ body {
         justify-content: center;
         margin: 40px 0px 40px 0px;
     }
-    .finalizarCompra>button{
+
+    .finalizarCompra>button {
         background-color: #f1c545;
         border: none;
         font-family: Montserrat;
