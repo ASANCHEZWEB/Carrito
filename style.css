@@ -7,9 +7,11 @@ h1 {
 body {
     margin: 0px
 }
+
 input::placeholder {
     overflow: visible;
 }
+
 @media (max-width: 575.98px) {
     .divNames {
         display: flex;
