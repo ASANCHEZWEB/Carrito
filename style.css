@@ -89,7 +89,7 @@ body {
         outline: none;
     }
 
-    .formDesc>input:nth-child(3) {
+    .formDesc>button:nth-child(3) {
         width: 100% !important;
         max-width: 93px !important;
         border: none !important;
